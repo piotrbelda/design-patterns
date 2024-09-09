@@ -73,7 +73,7 @@ class FieldEngineer(ABC):
         # setup garage
         pass
 
-    def get_results() -> House:
+    def get_results(self) -> House:
         pass
 
 
