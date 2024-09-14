@@ -20,4 +20,4 @@ if __name__ == '__main__':
     s1 = Singleton()
     s2 = Singleton()
 
-    assert s1 != s2
+    assert s1 is s2
